@@ -1,0 +1,48 @@
+.app {
+  font-family: sans-serif;
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+}
+
+.message {
+  padding: 0.3rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+}
+
+.message-placeholder {
+  font-style: oblique;
+  color: #666;
+}
+
+.message-input {
+  width: 100%;
+}
+
+.message-preview {
+  min-height: 2rem;
+}
+
+.message-preview > .message {
+  border-color: #333;
+}
+
+.message-input-form {
+  display: flex;
+}
+
+.message-input-form > input {
+  flex-grow: 1;
+  padding: 0.4rem;
+}
+
+.message-input-form > button {
+  margin-left: 1rem;
+}
