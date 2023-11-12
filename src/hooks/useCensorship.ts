@@ -26,6 +26,7 @@ const bad = [
   'fuuk',
   'dit',
   'pd',
+  '/',
 ];
 
 export function useCensorship(original: string): string {

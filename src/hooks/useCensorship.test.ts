@@ -22,6 +22,7 @@ describe('dumb censorship', () => {
     // 'got tg fuuka smh ml dm cute ban sekai alv yed sb': '*** ** ****a **h ** ** **te ban sekai *** *** **', // idk why this output is weird
     "And it's the same": "An* **'s the same",
     'censorship discovery': 'censorshi* *iscovery',
+    'sapslaj.github.io/blue-archive-chat-simulator': 'sapslaj.github.io*blue-archive-chat-simulator',
   };
 
   for (const [input, output] of Object.entries(tests)) {
