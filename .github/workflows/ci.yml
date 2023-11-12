@@ -23,7 +23,7 @@ jobs:
           bun-version: latest
       - run: bun install
       - run: bun run build
-      - uses: actions/upload-pages/artifact@v2
+      - uses: actions/upload-pages-artifact@v2
         with:
           path: dist/
   deploy:
