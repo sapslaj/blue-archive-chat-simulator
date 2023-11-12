@@ -27,6 +27,7 @@ const bad = [
   'dit',
   'pd',
   '/',
+  'tot',
 ];
 
 export function useCensorship(original: string): string {

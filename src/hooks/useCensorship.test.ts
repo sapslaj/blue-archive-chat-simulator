@@ -23,6 +23,7 @@ describe('dumb censorship', () => {
     "And it's the same": "An* **'s the same",
     'censorship discovery': 'censorshi* *iscovery',
     'sapslaj.github.io/blue-archive-chat-simulator': 'sapslaj.github.io*blue-archive-chat-simulator',
+    'totally': '***ally',
   };
 
   for (const [input, output] of Object.entries(tests)) {
