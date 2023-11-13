@@ -30,6 +30,7 @@ const bad = [
   'tot',
   'igs',
   'kike',
+  'iii',
 ];
 
 export function useCensorship(original: string): string {
