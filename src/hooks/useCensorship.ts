@@ -28,6 +28,7 @@ const bad = [
   'pd',
   '/',
   'tot',
+  'igs',
 ];
 
 export function useCensorship(original: string): string {
