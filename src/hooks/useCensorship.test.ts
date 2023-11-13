@@ -25,6 +25,8 @@ describe('dumb censorship', () => {
     'sapslaj.github.io/blue-archive-chat-simulator': 'sapslaj.github.io*blue-archive-chat-simulator',
     'totally': '***ally',
     'so big she': 'so b** *he',
+    'mutsuki keeps': 'mutsu** **eps',
+    "said it's barren": "sai* **'* *arren"
   };
 
   for (const [input, output] of Object.entries(tests)) {

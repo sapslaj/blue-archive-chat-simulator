@@ -5,6 +5,7 @@ const bad = [
   'ano',
   'ass',
   'azz',
+  'sb',
   'ba',
   'besta',
   'bt',
@@ -15,7 +16,6 @@ const bad = [
   'got',
   'hee',
   'ml',
-  'sb',
   'shit',
   'sm',
   'yed',
@@ -29,6 +29,7 @@ const bad = [
   '/',
   'tot',
   'igs',
+  'kike',
 ];
 
 export function useCensorship(original: string): string {
