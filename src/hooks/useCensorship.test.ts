@@ -28,6 +28,7 @@ describe('dumb censorship', () => {
     'mutsuki keeps': 'mutsu** **eps',
     "said it's barren": "sai* **'* *arren",
     'really, iii?': 'really, ***?',
+    'dev lol.': 'de* *ol.',
   };
 
   for (const [input, output] of Object.entries(tests)) {
