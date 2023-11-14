@@ -33,6 +33,7 @@ const bad = [
   'iii',
   'vl',
   'cb',
+  'pic',
 ];
 
 export function useCensorship(original: string): string {

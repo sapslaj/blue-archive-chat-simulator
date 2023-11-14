@@ -30,6 +30,7 @@ describe('dumb censorship', () => {
     'really, iii?': 'really, ***?',
     'dev lol.': 'de* *ol.',
     'electric but': 'electri* *ut',
+    'pickup': '***kup',
   };
 
   for (const [input, output] of Object.entries(tests)) {
