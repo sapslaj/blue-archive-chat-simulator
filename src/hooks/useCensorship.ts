@@ -34,6 +34,7 @@ const bad = [
   'vl',
   'cb',
   'pic',
+  'isis',
 ];
 
 export function useCensorship(original: string): string {
