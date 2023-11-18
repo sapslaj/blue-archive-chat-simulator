@@ -35,6 +35,8 @@ describe('dumb censorship', () => {
     'lvl 69': 'l** 69',
     'a nazi Mika': 'a **** Mika',
     'to pick up': 'to ***k up',
+    'advance for': 'advan** *or',
+    // 'ba aba bab baba abab': 'ba aba bab baba abab', // TODO: figure out why
   };
 
   for (const [input, output] of Object.entries(tests)) {
