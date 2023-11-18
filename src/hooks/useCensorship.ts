@@ -6,7 +6,6 @@ const bad = [
   'ass',
   'azz',
   'sb',
-  'ba',
   'besta',
   'bt',
   'cu',

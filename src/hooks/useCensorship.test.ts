@@ -19,7 +19,7 @@ describe('dumb censorship', () => {
     "u've got quite the energy for a slacker": "u've *** quite t** *nergy for a slacker",
     'hermanos': 'herm***s',
     'they could just make a script to detect the whole phrasing': 'they could just make a s****t ** *etect the w**** phrasing',
-    // 'got tg fuuka smh ml dm cute ban sekai alv yed sb': '*** ** ****a **h ** ** **te ban sekai *** *** **', // idk why this output is weird
+    'got tg fuuka smh ml dm cute ban sekai alv yed sb': '*** ** ****a **h ** ** **te ban sekai *** *** **',
     "And it's the same": "An* **'s the same",
     'censorship discovery': 'censorshi* *iscovery',
     'sapslaj.github.io/blue-archive-chat-simulator': 'sapslaj.github.io*blue-archive-chat-simulator',
@@ -33,10 +33,10 @@ describe('dumb censorship', () => {
     'pickup': '***kup',
     'this is why': 'th** ** why',
     'lvl 69': 'l** 69',
-    'a nazi Mika': 'a **** Mika',
+    'an azi Mika': 'a* *** Mika',
     'to pick up': 'to ***k up',
     'advance for': 'advan** *or',
-    // 'ba aba bab baba abab': 'ba aba bab baba abab', // TODO: figure out why
+    'ba aba bab baba abab': 'ba aba bab baba abab',
   };
 
   for (const [input, output] of Object.entries(tests)) {
