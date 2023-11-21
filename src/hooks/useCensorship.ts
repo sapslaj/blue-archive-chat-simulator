@@ -37,6 +37,8 @@ const bad = [
   'nazi',
   'pic',
   'cef',
+  'lmfao',
+  'tit',
 ];
 
 export function useCensorship(original: string): string {
