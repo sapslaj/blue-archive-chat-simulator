@@ -39,6 +39,7 @@ describe('dumb censorship', () => {
     'ba aba bab baba abab': 'ba aba bab baba abab',
     'about it': 'abou* **',
     'lmao lmfao': 'lmao *****',
+    'color swapped': 'color ****ped',
   };
 
   for (const [input, output] of Object.entries(tests)) {

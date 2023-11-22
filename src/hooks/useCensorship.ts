@@ -39,6 +39,7 @@ const bad = [
   'cef',
   'lmfao',
   'tit',
+  'swap',
 ];
 
 export function useCensorship(original: string): string {
