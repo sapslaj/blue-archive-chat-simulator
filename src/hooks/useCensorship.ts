@@ -43,6 +43,7 @@ const bad = [
   'tit',
   'swap',
   'sht',
+  'oppai',
 ];
 
 export function useCensorship(original: string): string {
