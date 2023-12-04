@@ -41,6 +41,7 @@ describe('dumb censorship', () => {
     'lmao lmfao': 'lmao *****',
     'color swapped': 'color ****ped',
     "fucking f.u.c.k.i.n.g f'u'c'k'i'n'g": "***king *******.i.n.g f'u'c'k'i'n'g",
+    'punish the': 'puni** *he',
   };
 
   for (const [input, output] of Object.entries(tests)) {

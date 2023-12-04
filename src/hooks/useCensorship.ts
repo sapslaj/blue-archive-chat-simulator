@@ -42,6 +42,7 @@ const bad = [
   'lmfao',
   'tit',
   'swap',
+  'sht',
 ];
 
 export function useCensorship(original: string): string {
